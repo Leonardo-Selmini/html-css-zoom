@@ -1,0 +1,27 @@
+/* commons */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/******** header - view section ********/
+header {
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+header .header-item {
+  background: linear-gradient(#3d3d3d, #1f1f1f);
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin-right: 5px;
+}
+
+header span {
+  color: white;
+}
