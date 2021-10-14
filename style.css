@@ -10,6 +10,7 @@
 /******** header - view section ********/
 header {
   display: flex;
+  height: 6vh;
   background-color: black;
   justify-content: flex-end;
   padding: 10px;
@@ -24,4 +25,61 @@ header .header-item {
 
 header span {
   color: white;
+}
+
+/******** main - cams section ********/
+main {
+  display: flex;
+  background-color: black;
+}
+
+main .main-centre {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 5px 5px 20px;
+}
+
+main .main-centre .main-item {
+  display: flex;
+  position: relative;
+  width: calc(100% / 5 - 8px);
+  height: calc(100% / 5 - 8px);
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 4px;
+}
+
+main .main-centre .main-item span.microphone {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 6px;
+}
+
+main .main-aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+}
+
+main .main-aside .aside-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+main .main-aside .aside-container i {
+  font-size: 50px;
+  color: #3d3d3d;
+}
+
+main .main-aside .aside-container i:hover{
+  color: rgb(0, 238, 255);
 }
